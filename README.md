@@ -1,4 +1,4 @@
-# Solana Challange-1  Wallet Connection
+#  Challange-1  Wallet Connection
 This challenge-1 for. To begin, ensure you have the Phantom wallet extension installed in your browser. Open the Phantom wallet and create a new Solana account by following the on-screen instructions. Once your account is created, navigate to the settings or connection section within Phantom, and connect it to your newly created Solana account.
 
 After establishing the connection, explore Solana's ecosystem to find airdrop opportunities. Participate in eligible projects or communities that distribute SOL tokens through airdrops. Once you've successfully received an airdrop, head back to your Phantom wallet. Locate the option for transferring tokens within the wallet interface.
