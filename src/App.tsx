@@ -156,24 +156,27 @@ function App() {
   };
 
 	// HTML code for the app
+
   return (
-    <div className="App">
-  <header className="App-header">
-    <div className='div1'>
+    <div className="Application">
+  <header className="react_app">
+    <div className='sec1'>
       <h2>Connect To</h2>
       <h2>Phantom Wallet</h2>
-      <img src="https://assets-global.website-files.com/63ab2dc5eb51b07924102f7a/63db71cd962fa1e88458c202_phantom-logo-freelogovectors.net_.png"></img>
+      <img src="https://media.licdn.com/dms/image/C5612AQHF4Tnlr0KQyg/article-cover_image-shrink_600_2000/0/1646375683151?e=2147483647&v=beta&t=AZoFZlQVI2P9Ny-gqmmsLoAdY3mEvT2T3AImkjAOFjQ"></img>
     </div>
-    <div className='div2'>
-      <button className="custom-button" onClick={createWallet}>Create a New Solana Account</button>
-      <button className="custom-button" onClick={transferToWallet}>Transfer SOL to New Account</button>
-      <button className="custom-button" onClick={ connectWallet }>______Connect Wallet_______</button>
-      <button className="custom-button" onClick={getWalletBalance}>_____New Account Balance___</button>
+    <div className='sec2'>
+      <button className="button-name" onClick={createWallet}>Create a New Solana Account</button>
+      <button className="button-name" onClick={transferToWallet}>Transfer SOL to New Account</button>
+      <button className="button-name" onClick={ connectWallet }>Connect Wallet</button>
+      <button className="button-name" onClick={getWalletBalance}>New Account Balance</button>
       {provider && walletKey && <p>Connected account</p>}
       {message && <p>{message}</p>}
     </div>
   </header>
 </div>
+
+
 
   );
 }
