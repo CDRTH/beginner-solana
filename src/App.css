@@ -13,8 +13,8 @@
   }
 }
 
-.App-header {
-  background: linear-gradient(40deg,#857e99,#94e2f6c7,#56587a);
+.react_app {
+  background: linear-gradient(40deg,#9de4ba,#e480ecc7,#40e550);
   background-size: 180% 180%;
   animation: gradient-animation 27s ease infinite;
   min-height: 100vh;
@@ -25,13 +25,13 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
-.div1{
+.sec1{
   width: 50%;
 }
-.div1 img{
+.sec1 img{
   width: 100px;
 }
-.div2{
+.sec2{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,8 +52,8 @@
     background-position: 0% 100%;
   }
 }
-.custom-button {
-  background-image: linear-gradient(to right, #3c7c7e 0%, #85D8CE  51%, #b43c98  100%);
+.button-name {
+  background-image: linear-gradient(to right, #6b8a6f 0%, #d581ae  51%, #aea4e8  100%);
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
@@ -66,14 +66,14 @@
   display: block;
 }
 
-.custom-button:hover {
+.button-name:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #edf6f9;
 }
 
 @keyframes App-logo-spin {
